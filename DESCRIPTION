@@ -1,0 +1,19 @@
+Package: forecastexp
+Title: General purpose forecast experiment framework
+Version: 0.0.0.9014
+Authors@R: person("Johannes Tang", "Kristensen", , "johannes@math.aau.dk", role = c("aut", "cre"))
+Description: 
+Depends:
+    R (>= 3.1.0)
+Imports:
+    parallel,
+    pryr,
+    lars,
+    zoo,
+    glmnet
+License: MIT
+LazyData: true
+Suggests:
+    knitr
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
